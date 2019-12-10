@@ -1,4 +1,4 @@
-package com.gaowj.toHbase;
+package com.gaowj.utils;
 
 import com.gaowj.bean.HBaseConnection;
 import org.apache.flink.api.common.io.OutputFormat;

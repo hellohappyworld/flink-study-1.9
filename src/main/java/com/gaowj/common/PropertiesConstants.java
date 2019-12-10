@@ -1,4 +1,4 @@
-package com.gaowj.utils;
+package com.gaowj.common;
 
 public class PropertiesConstants {
     // HBase (三元桥101)

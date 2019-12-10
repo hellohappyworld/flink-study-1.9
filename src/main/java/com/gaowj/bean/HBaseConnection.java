@@ -1,6 +1,6 @@
 package com.gaowj.bean;
 
-import com.gaowj.utils.PropertiesConstants;
+import com.gaowj.common.PropertiesConstants;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HConstants;
