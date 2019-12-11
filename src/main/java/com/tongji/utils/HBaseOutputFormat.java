@@ -1,6 +1,6 @@
-package com.gaowj.utils;
+package com.tongji.utils;
 
-import com.gaowj.bean.HBaseConnection;
+import com.tongji.bean.HBaseConnection;
 import org.apache.flink.api.common.io.OutputFormat;
 import org.apache.flink.configuration.Configuration;
 import org.apache.hadoop.hbase.TableName;

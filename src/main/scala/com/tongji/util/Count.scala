@@ -1,4 +1,4 @@
-package com.gaowj.util
+package com.tongji.util
 
 import org.apache.flink.api.scala._
 import org.apache.flink.api.scala.ExecutionEnvironment

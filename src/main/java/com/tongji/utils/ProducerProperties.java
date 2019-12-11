@@ -1,4 +1,4 @@
-package com.gaowj.utils;
+package com.tongji.utils;
 
 import java.util.Properties;
 

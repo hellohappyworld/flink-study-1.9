@@ -1,4 +1,4 @@
-package com.gaowj.TableSQLApi.source
+package com.tongji.TableSQLApi.source
 
 import java.lang.{Long => JLong}
 import java.util

@@ -1,4 +1,4 @@
-package com.gaowj.TableSQLApi.source
+package com.tongji.TableSQLApi.source
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction
 import org.apache.flink.streaming.api.watermark.Watermark

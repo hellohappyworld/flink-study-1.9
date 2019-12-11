@@ -1,4 +1,4 @@
-package com.gaowj.common;
+package com.tongji.common;
 
 public class PropertiesConstants {
     // HBase (三元桥101)

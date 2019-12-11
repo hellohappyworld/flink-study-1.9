@@ -1,6 +1,6 @@
-package com.gaowj.bean;
+package com.tongji.bean;
 
-import com.gaowj.common.PropertiesConstants;
+import com.tongji.common.PropertiesConstants;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HConstants;
