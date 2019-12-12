@@ -2,6 +2,7 @@ package com.tongji.userImage;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.tongji.common.PropertiesConstants;
 import com.tongji.utils.ConsumerProperties;
 import com.tongji.utils.HBaseOutputFormat;
 import org.apache.commons.lang.StringUtils;
@@ -26,7 +27,7 @@ public class UserImageToHbase {
         env.getCheckpointConfig().setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE);
 //        env.getCheckpointConfig().setFailOnCheckpointingErrors(false);
 
-        ConsumerProperties consumerProperties = new ConsumerProperties("userImage_test01");
+        ConsumerProperties consumerProperties = new ConsumerProperties(PropertiesConstants.USERIMAGE_BROKER, PropertiesConstants.USERIMAGE_ZOOKEEPER, "userImage_test01");
         Properties properties = consumerProperties.getProperties();
         FlinkKafkaConsumer010<String> myConsumer = new FlinkKafkaConsumer010<String>("cimg", new SimpleStringSchema(), properties);
         myConsumer.setStartFromLatest();
